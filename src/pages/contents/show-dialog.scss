@@ -1,0 +1,15 @@
+$flag-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+
+.flags {
+    float: right;
+
+    .flag-shadow {
+        -webkit-box-shadow: $flag-shadow;
+        -moz-box-shadow: $flag-shadow;
+        box-shadow: $flag-shadow;
+    }
+
+    img:hover {
+        opacity: 0.5;
+    }
+}

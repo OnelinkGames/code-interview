@@ -1,0 +1,37 @@
+body {
+    background: #fff;
+}
+
+.header {
+    width: 100vw;
+    height: 48px;
+    background-color: #45C1EA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+
+    .header-title {
+        font-size: 20px;
+    }
+
+    .header-account {
+
+        .header-account-menu {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+        }
+
+        .header-account-mail {
+            font-size: small;
+            color: gainsboro;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        .header-account-logout {
+            margin-left: 5px;
+        }
+    }
+}
