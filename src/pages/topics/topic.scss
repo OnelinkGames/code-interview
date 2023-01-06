@@ -1,0 +1,20 @@
+.create-button {
+    margin: 15px 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.content-table {
+    display: flex;
+    justify-content: center;
+
+    .MuiTablePagination-toolbar {
+        align-items: baseline;
+    }
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
